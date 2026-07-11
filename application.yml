@@ -1,0 +1,24 @@
+server:
+  port: 2333
+  address: 127.0.0.1
+lavalink:
+  plugins:
+    youtube:
+      enabled: true
+      allowSearch: true
+      allowDirectVideoIds: true
+      allowDirectPlaylistIds: true
+      clients:
+        - "MUSIC"
+        - "WEB"
+        - "TVHTML5EMBEDDED"
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: false
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
