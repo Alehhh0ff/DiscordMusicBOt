@@ -2,16 +2,6 @@ server:
   port: 2333
   address: 127.0.0.1
 lavalink:
-  plugins:
-    youtube:
-      enabled: true
-      allowSearch: true
-      allowDirectVideoIds: true
-      allowDirectPlaylistIds: true
-      clients:
-        - "MUSIC"
-        - "WEB"
-        - "TVHTML5EMBEDDED"
   server:
     password: "youshallnotpass"
     sources:
@@ -22,3 +12,13 @@ lavalink:
       vimeo: true
       http: true
       local: false
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
+    clients:
+      - "MUSIC"
+      - "WEB"
+      - "TVHTML5_SIMPLY"
